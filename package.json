@@ -1,0 +1,20 @@
+{
+  "name": "react-typesafe-memo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AGalabov/react-typesafe-memo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AGalabov/react-typesafe-memo/issues"
+  },
+  "homepage": "https://github.com/AGalabov/react-typesafe-memo#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.38",
+    "typescript": "^5.0.4"
+  }
+}
