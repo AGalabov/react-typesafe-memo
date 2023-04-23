@@ -1,6 +1,6 @@
 {
   "name": "react-typesafe-memo",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -13,8 +13,7 @@
     "url": "https://github.com/AGalabov/react-typesafe-memo/issues"
   },
   "homepage": "https://github.com/AGalabov/react-typesafe-memo#readme",
-  "devDependencies": {
-    "@types/react": "^18.0.38",
-    "typescript": "^5.0.4"
+  "peerDependencies": {
+    "@types/react": "^17.0.0"
   }
 }
