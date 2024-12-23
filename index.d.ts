@@ -55,4 +55,12 @@ declare namespace React {
     factory: () => T,
     deps: DependencyList | undefined
   ): Memoed<T>;
+
+  function useState<S>(
+    initialState: S | (() => S)
+  ): [Memoed<S>, Dispatch<SetStateAction<S>>];
+  function useState<S = undefined>(): [
+    Memoed<S | undefined>,
+    Dispatch<SetStateAction<S | undefined>>
+  ];
 }
